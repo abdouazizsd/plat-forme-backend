@@ -1,0 +1,1 @@
+plate-forme all device

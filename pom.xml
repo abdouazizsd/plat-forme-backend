@@ -47,11 +47,13 @@
             <optional>true</optional>
         </dependency>
         <!--Model Mapper-->
+        <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
-            <version>3.1.0</version>
+            <version>2.3.2</version>
         </dependency>
+
         <!--AND Model Mapper-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -65,6 +67,12 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.4.1.Final</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

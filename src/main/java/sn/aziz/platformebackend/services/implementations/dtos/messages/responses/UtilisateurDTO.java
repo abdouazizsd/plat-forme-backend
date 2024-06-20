@@ -1,4 +1,4 @@
-package sn.aziz.platformebackend.services.dtos.messages.responses;
+package sn.aziz.platformebackend.services.implementations.dtos.messages.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -16,7 +16,7 @@ import sn.aziz.platformebackend.entities.Profil;
 //exclure les propriétés ayant des valeurs nulles / vides ou par défaut.
 @JsonInclude(value = JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class UtilisateurDto {
+public class UtilisateurDTO {
 
     private Long id;
     private String nom;

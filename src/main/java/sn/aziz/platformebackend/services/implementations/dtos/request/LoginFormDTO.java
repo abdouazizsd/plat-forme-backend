@@ -1,4 +1,4 @@
-package sn.aziz.platformebackend.services.dtos.request;
+package sn.aziz.platformebackend.services.implementations.dtos.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

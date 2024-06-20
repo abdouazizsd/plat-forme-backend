@@ -1,4 +1,4 @@
-package sn.aziz.platformebackend.services.dtos.messages.responses;
+package sn.aziz.platformebackend.services.implementations.dtos.messages.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

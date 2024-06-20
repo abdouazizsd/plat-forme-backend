@@ -1,9 +1,9 @@
-package sn.aziz.platformebackend.services.dtos.mappers;
+package sn.aziz.platformebackend.services.implementations.dtos.mappers;
 
 import org.springframework.stereotype.Component;
 import org.modelmapper.ModelMapper;
 import sn.aziz.platformebackend.entities.Utilisateur;
-import sn.aziz.platformebackend.services.dtos.messages.responses.UtilisateurDto;
+import sn.aziz.platformebackend.services.implementations.dtos.messages.responses.UtilisateurDto;
 
 import java.util.List;
 import java.util.Objects;

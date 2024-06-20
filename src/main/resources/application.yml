@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: plat-forme-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_plat-forme-backend?createDatabaseIfNotExist=true&userSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password:
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+  mvc:
+    format:
+      date: d/M/yyyy
+server:
+  port: 8286
+
